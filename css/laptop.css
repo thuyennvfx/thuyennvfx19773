@@ -283,3 +283,20 @@ img.project-img {
   color: #74c0fc;
   font-size: 32px;
 }
+/*man hinh may tinh bang*/
+@media screen and (max-width: 1024px) {
+  .information .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 80px;
+  }
+  .nav-item2 {
+    display: none;
+  }
+  .nav-item.left {
+    margin-right: 0px;
+  }
+  .certificate-item {
+    display: block;
+  }
+}
